@@ -1,0 +1,25 @@
+# Environment variables — never commit real credentials
+.env
+**/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Checkpoint / runtime state files
+yt_checkpoint_monthly.json
+youtube/yt_checkpoint_monthly.json
+
+# CSV outputs (generated files)
+*.csv
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
